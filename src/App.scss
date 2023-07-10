@@ -1,0 +1,18 @@
+div {
+    #logo {
+        width: 10%;
+        animation: rodar linear infinite 10s;  
+        @keyframes rodar {
+            0% {
+                transform: rotate(0deg);
+            }      
+            100% {
+                transform: rotate(360deg);
+
+            }
+        
+        }
+    }
+
+}
+
